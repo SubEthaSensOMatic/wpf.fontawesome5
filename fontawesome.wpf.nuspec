@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>wpf.fontawesome5</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Ajid Welzel</authors>
+    <owners>Ajid Welzel</owners>
+    <licenseUrl>https://github.com/SubEthaSensOMatic/wpf.fontawesome5</licenseUrl>
+    <projectUrl>https://github.com/SubEthaSensOMatic/wpf.fontawesome5/blob/master/LICENSE</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>WPF Font Awesome 5 integration</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>WPF FontAwesome 5</tags>
+  </metadata>
+</package>
