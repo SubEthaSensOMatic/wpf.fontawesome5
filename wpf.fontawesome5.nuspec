@@ -6,8 +6,8 @@
     <title>$title$</title>
     <authors>Ajid Welzel</authors>
     <owners>Ajid Welzel</owners>
-    <licenseUrl>https://github.com/SubEthaSensOMatic/wpf.fontawesome5</licenseUrl>
-    <projectUrl>https://github.com/SubEthaSensOMatic/wpf.fontawesome5/blob/master/LICENSE</projectUrl>
+    <licenseUrl>https://github.com/SubEthaSensOMatic/wpf.fontawesome5/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/SubEthaSensOMatic/wpf.fontawesome5</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>WPF Font Awesome 5 integration</description>
     <releaseNotes></releaseNotes>
