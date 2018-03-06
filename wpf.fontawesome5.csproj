@@ -49,13 +49,8 @@
       <DependentUpon>Icon.xaml</DependentUpon>
     </Compile>
     <Compile Include="FaStyles.cs" />
-    <Compile Include="FaLookup.cs" />
+    <Compile Include="FaLookup.g.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Fonts\Font Awesome 5 Brands-Regular-400.otf" />
-    <Resource Include="Fonts\Font Awesome 5 Free-Regular-400.otf" />
-    <Resource Include="Fonts\Font Awesome 5 Free-Solid-900.otf" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="Controls\Icon.xaml">
@@ -63,5 +58,16 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Generator\GenerateFaLookup.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="FontAwesome\use-on-desktop\Font Awesome 5 Brands-Regular-400.otf" />
+    <Resource Include="FontAwesome\use-on-desktop\Font Awesome 5 Free-Regular-400.otf" />
+    <Resource Include="FontAwesome\use-on-desktop\Font Awesome 5 Free-Solid-900.otf" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>node $(ProjectDir)Generator\GenerateFaLookup.js</PreBuildEvent>
+  </PropertyGroup>
 </Project>
