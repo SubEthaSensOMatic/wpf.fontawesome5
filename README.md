@@ -25,7 +25,7 @@ First define namespace in your xaml file:
 
 ```
 
-After that you can use the **fa:Icon** control to display awesome icons. Property **FaName** specifies the icon name to display. If an icon has more then one style you can switch it with property **FaStyle** between **Brands**, **Regular** und **Solid**. The **fa:Icon** control stretches automatically to container size or you can set **With** and **Heigh** to size your icon.
+After that you can use the **fa:Icon** control to display awesome icons. Property **FaName** specifies the icon name to display. If an icon has more then one style you can switch it with property **FaStyle** between **Brands**, **Regular** und **Solid**. The **fa:Icon** control stretches automatically to container size or you can set **Width** and **Height** to size your icon.
 
 ```xaml
 
