@@ -9,9 +9,9 @@
     <licenseUrl>https://github.com/SubEthaSensOMatic/wpf.fontawesome5/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/SubEthaSensOMatic/wpf.fontawesome5</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>WPF Font Awesome 5.0.12 integration</description>
+    <description>WPF Font Awesome 5.0.13 integration</description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright 2018</copyright>
-    <tags>WPF FontAwesome 5.0.12</tags>
+    <tags>WPF FontAwesome 5.0.13</tags>
   </metadata>
 </package>
