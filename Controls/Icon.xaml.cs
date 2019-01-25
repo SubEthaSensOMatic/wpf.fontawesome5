@@ -10,9 +10,9 @@ namespace FontAwesome.Wpf.Controls
     /// </summary>
     public partial class Icon : UserControl
     {
-        private static FontFamily _Brands = new FontFamily(new Uri("pack://application:,,,/wpf.fontawesome5;component/"), "./FontAwesome/use-on-desktop/#Font Awesome 5 Brands Regular");
-        private static FontFamily _Solid = new FontFamily(new Uri("pack://application:,,,/wpf.fontawesome5;component/"), "./FontAwesome/use-on-desktop/#Font Awesome 5 Free Solid");
-        private static FontFamily _Regular = new FontFamily(new Uri("pack://application:,,,/wpf.fontawesome5;component/"), "./FontAwesome/use-on-desktop/#Font Awesome 5 Free Regular");
+        private static FontFamily _Brands = new FontFamily(new Uri("pack://application:,,,/wpf.fontawesome5;component/"), "./FontAwesome/otfs/#Font Awesome 5 Brands Regular");
+        private static FontFamily _Solid = new FontFamily(new Uri("pack://application:,,,/wpf.fontawesome5;component/"), "./FontAwesome/otfs/#Font Awesome 5 Free Solid");
+        private static FontFamily _Regular = new FontFamily(new Uri("pack://application:,,,/wpf.fontawesome5;component/"), "./FontAwesome/otfs/#Font Awesome 5 Free Regular");
 
 
         public FaStyles FaStyle

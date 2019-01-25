@@ -1,7 +1,7 @@
 ﻿let fs = require('fs');
 let path = require('path');
 
-let sourceFile = __dirname + '/../FontAwesome/advanced-options/metadata/icons.json';
+let sourceFile = __dirname + '/../FontAwesome/metadata/icons.json';
 let targetFile = __dirname + '/../FaLookup.g.cs';
 
 fs.readFile(sourceFile, { encoding: 'utf-8' }, (err, json) => {

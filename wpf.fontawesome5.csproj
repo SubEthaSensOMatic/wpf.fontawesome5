@@ -62,9 +62,9 @@
     <None Include="Generator\GenerateFaLookup.js" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="FontAwesome\use-on-desktop\Font Awesome 5 Brands-Regular-400.otf" />
-    <Resource Include="FontAwesome\use-on-desktop\Font Awesome 5 Free-Regular-400.otf" />
-    <Resource Include="FontAwesome\use-on-desktop\Font Awesome 5 Free-Solid-900.otf" />
+    <Resource Include="FontAwesome\otfs\Font Awesome 5 Brands-Regular-400.otf" />
+    <Resource Include="FontAwesome\otfs\Font Awesome 5 Free-Regular-400.otf" />
+    <Resource Include="FontAwesome\otfs\Font Awesome 5 Free-Solid-900.otf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
