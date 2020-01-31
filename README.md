@@ -1,5 +1,5 @@
 # wpf.fontawesome5
-With **wpf.fontawesome5** you can use the popular icon library FontAwesome 5.6.3 within your WPF applications.
+With **wpf.fontawesome5** you can use the popular icon library FontAwesome 5.12.0 within your WPF applications.
 
 ## Installation
 You can download source and build project on your own or install package via nuget

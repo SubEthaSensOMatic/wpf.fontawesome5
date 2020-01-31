@@ -5,12 +5,12 @@ using System.Windows.Markup;
 // Allgemeine Informationen über eine Assembly werden über die folgenden
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die einer Assembly zugeordnet sind.
-[assembly: AssemblyTitle("FontAwesome 5.6.3 WPF")]
+[assembly: AssemblyTitle("FontAwesome 5.12.0 WPF")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("FontAwesome 5.6.3 WPF")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyProduct("FontAwesome 5.12.0 WPF")]
+[assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,8 +32,8 @@ using System.Windows.Markup;
 // Sie können alle Werte angeben oder Standardwerte für die Build- und Revisionsnummern verwenden,
 // indem Sie "*" wie unten gezeigt eingeben:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("5.6.3")]
-[assembly: AssemblyFileVersion("5.6.3.0")]
+[assembly: AssemblyVersion("5.12.0")]
+[assembly: AssemblyFileVersion("5.12.0.0")]
 
 
 [assembly: XmlnsPrefix("http://schemas.fontawesome.com/wpf", "fa")]
